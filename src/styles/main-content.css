@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* HEADER */
+
+.main_container {
+    max-width: 80vw; /*começa a trabalhar com vw e vh (viweport) devido a responsividade*/
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+    
+}
+
+.header_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+    
+}
